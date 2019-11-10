@@ -1,0 +1,195 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title>藏书阁</title>
+    <link rel="stylesheet" type="text/css" href="css/Home_Base.css"/>
+	<script type="text/javascript" src="js/check.js"></script>
+	<script type="text/javascript" src="js/time.js"></script>	
+</head>
+<body>
+<div id="page_wrapper">
+<div class="pagetop">
+	<div class="control">
+		<ul>
+			<li><a href="HOME.html">首页</a></li>
+		    <li><a href="javascript:history.go(-1)">后退</a></li>
+			<li><a href="javascript:history.go(1)">前进</a></li>
+		</ul>
+	</div>
+	<div id="time"></div>
+	</div>
+<div class="masthead">
+    <h2 id="banner">藏书阁</h2>
+	<div class="login">
+		<form name="myForm" onsubmit="return valdateForm();" action="javascript:alert('尊贵的会员'+(document.getElementById('username').value)+'，欢迎回来!')">
+			<p id="title">账号登录</p>
+			<p>账号:<input type="text" id="username"></p>
+			<p>密码:<input type="text" id="password"></p>
+			<p><input type="submit" class="btn" value="登录"><a href="registered.html">没有账户？前往注册</a></p>
+		</form>	
+	</div>
+</div>
+<div class="middle">
+<div class="navigation">
+	<ul>
+		<li id="littletitle">图书</li>
+		<li><a href="#">期刊 / 报纸 / 外文原版</a></li>
+		<li><a href="#">国学古籍 / 收藏鉴赏</a></li>
+		<li><a href="#">小说 / 文学 / 语言文字</a></li>
+		<li><a href="#">历史 / 地理 / 艺术</a></li>
+		<li><a href="#">政治 / 法律 /军事</a></li>
+		<li><a href="#">哲学 / 心理 / 宗教</a></li>
+		<li><a href="#">经济 / 社科 / 综合</a></li>
+		<li><a href="#">童书 / 生活 / 体育</a></li>
+		<li><a href="#">工程技术 / 互联网</a></li>
+		<li><a href="#">自然科学 / 医药卫生</a></li>
+		<li><a href="#">教材 / 教辅 / 考试</a></li>
+		<li><a href="#">红色文献 / 签名本</a></li>
+	</ul>
+	</div>
+<div class="middle_right">
+	<a href="####"><img src="img/bigpicture.jpg" alt="cenpicture" ></a>
+	<div id="questionnaire">
+		<form action="javascript:alert('感谢你的填写！祝你购物愉快！')">
+			<p id="questionnairetitle">问卷调查</p>
+			<p>年龄:&nbsp;<input name="age" type="text" size="5"/></p>
+			<p>性别:<input name="gender" id="male" type="radio" checked="checked" value="Male"/>
+				<label for="male">男</label>
+				<input name="gender" id="female" type="radio" value="Female"/>
+				<label for="female">女</label>&nbsp;
+			</p>
+			<p>学历：
+				<select name="edu_level">
+				<option>小学</option>
+				<option>中学</option>	
+				<option selected="selected">大学</option>	
+				<option>小学及以上</option>	
+				</select>
+			</p>
+			<p>一周看书时间:</p>
+			<p>&nbsp;<textarea name="booktime" cols="20" rows="1"></textarea></p>
+			<p>喜欢的书籍:</p>
+			<p>&nbsp;<textarea name="likebook" cols="20" rows="4"></textarea></p>
+			<p>关于本页面的看法:</p>
+			<p>&nbsp;<textarea name="remark" cols="20" rows="4"></textarea></p>
+			<p>&nbsp;<input name="submitl" type="submit" value="提交"/>&nbsp;&nbsp;
+			   <input name="resetl" type="reset" value="重置"/>
+			</p>
+		</form>
+	</div>
+</div>
+</div>
+<div class="goods">
+	<div id="goodstitle">热销产品</div>
+	   <div class="commodity"> <a href="#"><img src="img/goods1.jpg" alt="" width="200" class="commodity"/></a>
+      <h4>三体（全三册）</h4>
+      <p class="author">作者：刘慈溪</p>
+      <p class="price">¥46.5</p>
+    </div>
+	 <div class="commodity"> <a href="#"><img src="img/goods2.jpg" alt="" width="200" class="commodity"/></a>
+      <h4>追风筝的人</h4>
+      <p class="author">作者:[美]卡勒德·胡赛尼</p>
+      <p class="price">¥21.5</p>
+    </div>
+	 <div class="commodity"> <a href="#"><img src="img/goods3.jpg" alt="" width="200" class="commodity"/></a>
+      <h4>白夜行</h4>
+      <p class="author">作者：[日]东野圭吾</p>
+      <p class="price">¥41.0</p>
+    </div>
+	 <div class="commodity"> <a href="#"><img src="img/goods4.jpg" alt="" width="200" class="commodity"/></a>
+      <h4>百年孤独</h4>
+      <p class="author">作者：加西亚·马尔克斯</p>
+      <p class="price">¥41.0</p>
+    </div>
+	  <div class="commodity"> <a href="#"><img src="img/goods5.jpg" alt="" width="200" class="commodity"/></a>
+      <h4>皮囊</h4>
+      <p class="author">作者：蔡崇达</p>
+      <p class="price">¥24.4</p>
+    </div>
+	<div class="commodity"> <a href="#"><img src="img/goods1.jpg" alt="" width="200" class="commodity"/></a>
+      <h4>三体（全三册）</h4>
+      <p class="author">作者：刘慈溪</p>
+      <p class="price">¥46.5</p>
+    </div>
+	 <div class="commodity"> <a href="#"><img src="img/goods2.jpg" alt="" width="200" class="commodity"/></a>
+      <h4>追风筝的人</h4>
+      <p class="author">作者:[美]卡勒德·胡赛尼</p>
+      <p class="price">¥21.5</p>
+    </div>
+	 <div class="commodity"> <a href="#"><img src="img/goods3.jpg" alt="" width="200" class="commodity"/></a>
+      <h4>白夜行</h4>
+      <p class="author">作者：[日]东野圭吾</p>
+      <p class="price">¥41.0</p>
+    </div>
+	 <div class="commodity"> <a href="#"><img src="img/goods4.jpg" alt="" width="200" class="commodity"/></a>
+      <h4>百年孤独</h4>
+      <p class="author">作者：加西亚·马尔克斯</p>
+      <p class="price">¥41.0</p>
+    </div>
+	  <div class="commodity"> <a href="#"><img src="img/goods5.jpg" alt="" width="200" class="commodity"/></a>
+      <h4>皮囊</h4>
+      <p class="author">作者：蔡崇达</p>
+      <p class="price">¥24.4</p>
+    </div>
+    </div>
+<div class="goods">
+	<div id="preferenrialtitle">限时优惠</div>
+	   <div class="commodity"> <a href="#"><img src="img/goods1.jpg" alt="" width="200" class="commodity"/></a>
+      <h4>三体（全三册）</h4>
+      <p class="author">作者：刘慈溪</p>
+      <p class="price">¥46.5&nbsp;<span id="original">93.0</span></p>
+    </div>
+	 <div class="commodity"> <a href="#"><img src="img/goods2.jpg" alt="" width="200" class="commodity"/></a>
+      <h4>追风筝的人</h4>
+      <p class="author">作者:[美]卡勒德·胡赛尼</p>
+      <p class="price">¥21.5&nbsp;<span id="original">36.0</span></p>
+    </div>
+	 <div class="commodity"> <a href="#"><img src="img/goods3.jpg" alt="" width="200" class="commodity"/></a>
+      <h4>白夜行</h4>
+      <p class="author">作者：[日]东野圭吾</p>
+      <p class="price">¥41.0&nbsp;<span id="original">59.6</span></p>
+    </div>
+	 <div class="commodity"> <a href="#"><img src="img/goods4.jpg" alt="" width="200" class="commodity"/></a>
+      <h4>百年孤独</h4>
+      <p class="author">作者：加西亚·马尔克斯</p>
+      <p class="price">¥41.0&nbsp;<span id="original">55.0</span></p>
+    </div>
+	  <div class="commodity"> <a href="#"><img src="img/goods5.jpg" alt="" width="200" class="commodity"/></a>
+      <h4>皮囊</h4>
+      <p class="author">作者：蔡崇达</p>
+      <p class="price">¥24.4&nbsp;<span id="original">49.8</span></p>
+    </div>
+	 <div class="commodity"> <a href="#"><img src="img/goods1.jpg" alt="" width="200" class="commodity"/></a>
+      <h4>三体（全三册）</h4>
+      <p class="author">作者：刘慈溪</p>
+      <p class="price">¥46.5&nbsp;<span id="original">93.0</span></p>
+    </div>
+	 <div class="commodity"> <a href="#"><img src="img/goods2.jpg" alt="" width="200" class="commodity"/></a>
+      <h4>追风筝的人</h4>
+      <p class="author">作者:[美]卡勒德·胡赛尼</p>
+      <p class="price">¥21.5&nbsp;<span id="original">36.0</span></p>
+    </div>
+	 <div class="commodity"> <a href="#"><img src="img/goods3.jpg" alt="" width="200" class="commodity"/></a>
+      <h4>白夜行</h4>
+      <p class="author">作者：[日]东野圭吾</p>
+      <p class="price">¥41.0&nbsp;<span id="original">59.6</span></p>
+    </div>
+	 <div class="commodity"> <a href="#"><img src="img/goods4.jpg" alt="" width="200" class="commodity"/></a>
+      <h4>百年孤独</h4>
+      <p class="author">作者：加西亚·马尔克斯</p>
+      <p class="price">¥41.0&nbsp;<span id="original">55.0</span></p>
+    </div>
+	  <div class="commodity"> <a href="#"><img src="img/goods5.jpg" alt="" width="200" class="commodity"/></a>
+      <h4>皮囊</h4>
+      <p class="author">作者：蔡崇达</p>
+      <p class="price">¥24.4&nbsp;<span id="original">49.8</span></p>
+    </div>
+    </div>
+<div class="foot">
+	<p id="info">Copyright cangshuge.com 藏书阁 版权所有</p>
+	</div>
+</div>
+</body>
+</html>

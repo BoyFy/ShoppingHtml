@@ -1,0 +1,180 @@
+﻿*{
+	margin: 0;
+	padding: 0;
+	font-family: "宋体","微软雅黑";
+}
+html,body{
+    background-color:#FFFFFF;
+	width: 100%;
+}
+#page_wrapper{
+	width: 60%;
+	height: 1732px;
+	margin: 0 auto;
+	margin-left: auto;
+	margin-right: auto;
+	min-width: 1200px;
+}
+.pagetop{
+	height: 20px;
+	background: #8c222c;
+}
+.masthead{
+	background: #fffbf0;
+	width: 100%;
+	height: 100px;
+	color: black;
+}
+#banner{
+	float: left;
+	font-size: 55px;
+	margin-left: -17%;
+	margin-top: 22px;
+}
+.login{
+	float: right;
+	font-size: 14px;
+	margin-top: 25px;
+	margin-left: 0px;
+	margin-right: 8%;
+}
+#title{
+	text-align: center;
+}
+#time{
+	float: right;
+	color: aliceblue;
+	margin-top: 2px;
+	font-size: 14px;
+}
+.login a{
+	color: black;
+	text-decoration: none;
+}
+.control{
+	float: left;
+	width: 20%;
+	height: 20px;
+	font-size: 14px;
+	padding-top: 2px;
+	padding-left: 2px;
+	text-align: left;
+}
+.control li{
+	float: left;
+	list-style: none;
+	margin-left: 3px;
+}
+.control a{
+	color: aliceblue;
+	text-decoration: none;
+} 
+.navigation{
+	float: left;
+	width: 20%;
+}
+.navigation #littletitle{
+	background: #8c222c;
+	font-size: 18px;
+	color: #FFFFFF;
+	text-align: left;
+	padding-top: 6px;
+	padding-bottom: 4px;
+}
+.navigation li{
+	border: 1px solid black;
+	list-style: none;
+	font-size: 14px;
+	text-align: left;
+	padding-left: 12px;
+	padding-bottom: 4px;
+	padding-top: 4px;
+}
+.middle{
+	width: 100%;
+	height: 345px;
+	margin-bottom: 30px;
+}
+.navigation a{
+	text-decoration: none;
+	color:#000000;
+}
+.middle_right{
+	float: left;
+	width:80%;
+	height: 345px;
+}
+.middle_right img{
+	width: 80%;
+	height: 100%;
+	min-width: 430px;
+}
+#questionnaire{
+	float: right;
+	width: 20%;
+	height: 345px;
+	background: #fffbf0;
+}
+#questionnaire p{
+	padding-left: 2px;
+	padding-top: 4px;
+	font-size: 14px;
+}
+#questionnaire #questionnairetitle{
+	background: #8c222c;
+	color: #FFFFFF;
+	font-size: 18px;
+	height: 28px;
+	text-align: center;
+}
+.goods{
+	width: 100%;
+	height: 600px;
+}
+.goods #goodstitle{
+	font-size: 24px;
+	font-weight: bold;
+	border-bottom: 2px solid;
+	padding-bottom: 10px;
+	padding-left: 5px;
+}
+.commodity{
+	float: left;
+	padding-left: 17px;
+	padding-top: 6px;
+}
+.commodity h4{
+	padding-left: 25px;
+	font-size: 14px;
+	color: #333;
+}
+.commodity p{
+	padding-left: 25px;
+	font-size: 14px;
+	color:#999;
+}
+.commodity .price{
+	font-size:18px;
+	color: #bf7f5f;
+}
+.commodity #original{
+	color: #999;
+	font-size: 15px;
+	text-decoration: line-through;
+}
+.goods #preferenrialtitle{
+	font-size: 24px;
+	font-weight: bold;
+	border-bottom: 2px solid;
+	padding-bottom: 10px;
+	padding-left: 5px;
+}
+.foot{
+	background: #8c222c;
+	height: 40px
+}
+.foot #info{
+	color: aliceblue;
+	text-align: center;
+	padding-top: 9px;
+}
